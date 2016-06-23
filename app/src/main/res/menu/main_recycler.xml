@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+    android:id="@+id/add"
+    android:orderInCategory="100"
+    android:title="添加"
+    />
+    <item
+        android:id="@+id/del"
+        android:orderInCategory="100"
+        android:title="删除"
+        />
+    <item
+        android:id="@+id/linear"
+        android:orderInCategory="100"
+        android:title="线性"
+        />
+    <item
+        android:id="@+id/gridv"
+        android:orderInCategory="100"
+        android:title="表格"
+        />
+    <item
+        android:id="@+id/gridh"
+        android:orderInCategory="100"
+        android:title="表格横排"
+        />
+    <item
+        android:id="@+id/waterfall"
+        android:orderInCategory="100"
+        android:title="瀑布流"
+        />
+</menu>

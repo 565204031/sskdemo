@@ -1,0 +1,24 @@
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:ssk="http://schemas.android.com/apk/res-auto"
+   android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/red" >
+    
+    <com.ssk.sskdemo.ui.DividingView
+         android:layout_width="wrap_content"
+   		 android:layout_height="500dp"
+   		 android:background="@color/yellow"
+   		 ssk:upprice="1000"
+   		 ssk:downprice="200"
+   		 ssk:firstprice="0"
+   		 ssk:secondprice="200"
+   		 ssk:thirdprice="500"
+   		 ssk:fourthprice="1000"
+   		 ssk:fifthprice="10000"
+   		 ssk:firstscale="20"
+   		 ssk:secondscale="50"
+   		 ssk:thirdscale="100"
+   		 ssk:fourthscale="1000"
+        />
+</LinearLayout>

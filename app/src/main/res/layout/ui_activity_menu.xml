@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <com.ssk.sskdemo.ui.MenuView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/mv"
+        >
+        <Button
+            android:id="@+id/menu"
+            style="@style/MenuStyle"
+            android:background="@mipmap/ic_launcher"/>
+        <Button
+            android:id="@+id/item1"
+            style="@style/MenuItemStyle"
+            android:background="@mipmap/ic_qq"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/item2"
+            style="@style/MenuItemStyle"
+            android:background="@mipmap/ic_qzone"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/item3"
+            style="@style/MenuItemStyle"
+            android:background="@mipmap/ic_xl"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/item4"
+            style="@style/MenuItemStyle"
+            android:background="@mipmap/ic_wx"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/item5"
+            style="@style/MenuItemStyle"
+            android:background="@mipmap/ic_wx2"
+            android:visibility="gone"/>
+    </com.ssk.sskdemo.ui.MenuView>

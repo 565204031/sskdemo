@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ssk.sskdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Android 新特性部分 -->
+        <activity android:label="5.0新特性使用" android:name=".lollipop.LollipopMainActivity"/>
+        <activity android:label="Recycler使用" android:name=".lollipop.RecyclerActivity"/>
+        <activity android:label="DrawerLayout+NavigationView使用" android:name=".lollipop.DrawerActivity"/>
+        <activity android:label="新特性控件" android:name=".lollipop.TextInputActivity"/>
+        <activity android:label="TabLayout使用" android:name=".lollipop.TabLayoutActivity"/>
+
+        <!-- 自定义控件部分 -->
+
+        <activity android:label="自定义高级UI" android:name=".ui.UIMainActivity"/>
+        <activity android:label="ViewPager特效" android:name=".ui.NewsDigestActivity"/>
+        <activity android:label="查看图片详情" android:name=".ui.ZoomImageActivity"/>
+        <activity android:label="水波纹效果" android:name=".ui.WaterActivity"/>
+        <activity android:label="导航菜单弹出效果" android:name=".ui.MenuActivity"/>
+        <activity android:label="QQ侧滑删除,QQ消息气泡效果" android:name=".ui.SideslipActivity"/>
+        <activity android:label="网易新闻切换" android:name=".ui.WangYiActivity"/>
+        <activity android:label="下拉刷新，上拉加载" android:name=".ui.RefreshActivity"/>
+        <activity android:label="微信下拉拍照效果" android:name=".ui.WeixinslideActivity"/>
+        <activity android:label="GIF动画引擎" android:name=".ui.GifActivity"/>
+        <activity android:label="自定义筛选" android:name=".ui.DividingActivity"/>
+        <activity android:label="微信通讯录字母导航" android:name=".ui.WxContactsActivity"/>
+        <activity android:label="微信雷达加好友" android:name=".ui.SatelliteActivity"/>
+        <activity android:label="QQ侧滑" android:name=".ui.QQSlidingMenuActivity"/>
+    </application>
+
+</manifest>
